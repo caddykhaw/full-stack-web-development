@@ -8,5 +8,8 @@ tasks:
   - init: pnpm install
     command: pnpm run dev
     
+ports:
+  - port: 5173
+    onOpen: open-browser
 
 
